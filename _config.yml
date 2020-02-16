@@ -26,4 +26,7 @@ github_username: stfeng
 # Google
 
 
+permalink: blog/:year/:month/:day/:title 
+
+
 
