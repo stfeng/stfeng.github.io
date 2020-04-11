@@ -1,49 +1,49 @@
 <!-- 默认模版 -->
 <!DOCTYPE html>
-	<html>
-		<head>
-			<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-			<title>{{ page.title }}</title>
-			
-			<!-- 样式 -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>{{ page.title }}</title>
 
-			<!-- 百度统计 -->
-			<script>
-				var _hmt = _hmt || [];
-				(function() {
-				  var hm = document.createElement("script");
-				  hm.src = "https://hm.baidu.com/hm.js?aca4380bcd68e8bf7ee5f80a6f43d722";
-				  var s = document.getElementsByTagName("script")[0]; 
-				  s.parentNode.insertBefore(hm, s);
-				})();
-			</script>
-		</head>
-		<body>
-			<!-- 导航 -->
-			<nav>
-	    		<ul>
-	        		<li><a href="/index.html">Home</a></li>
-		        	<li><a href="/about/index.html">About</a></li>
-	        		<li><a href="/blog/index.html">Blog</a></li>
-	    		</ul>
-			</nav>
+    <!-- 样式 -->
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
 
-			<!-- 内容 -->
-			<div class="content-container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
+    <!-- 百度统计 -->
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?aca4380bcd68e8bf7ee5f80a6f43d722";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</head>
+<body>
+<!-- 导航 -->
+<nav>
+    <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/about/index.html">About</a></li>
+        <li><a href="/blog/index.html">Blog</a></li>
+    </ul>
+</nav>
+
+<!-- 内容 -->
+<div class="content-container">
+
+    {{ content }}
+
+</div><!-- /.container -->
 
 
-			<!-- 页脚 -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:fst@gmail.com">email</a></li>
-	        		<li><a href="https://github.com/stfeng">github.com/stfeng</a></li>
-				</ul>
-			</footer>
+<!-- 页脚 -->
+<footer>
+    <ul>
+        <li><a href="mailto:fst@gmail.com">email</a></li>
+        <li><a href="https://github.com/stfeng">github.com/stfeng</a></li>
+    </ul>
+</footer>
 
-		</body>
-	</html>
+</body>
+</html>
