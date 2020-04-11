@@ -1,0 +1,21 @@
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px silver solid;
+    padding: 5px;
+    font-size: 12px;
+}
+
+p#percent {
+    background-color: green;
+    width: 30%;
+    height: 30%;
+}
+
+p#pix {
+    width: 1200px;
+    height: 100px;
+    background-image: url(../image/skill/skill1.png)
+}
